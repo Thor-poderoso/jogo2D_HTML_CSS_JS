@@ -1,0 +1,52 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#content{
+    background: url("../img/fundo2D1.jpg") no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+#content2{
+    background: url("../img/fundo2D2.jpg") no-repeat;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.char {
+    background: url(https://s3.amazonaws.com/mpatric/assets/original/textureatlas.png);
+    height: 48px;
+    width: 48px;
+    position: absolute;
+    bottom: 60%;
+    left: 50%;
+    border-bottom: 3px solid #FFF;
+}
+
+.pos1 {
+    height: 48px;
+    width: 48px;
+    background-position: 0 0;
+}
+
+.pos2 {
+    background-position: 48px 1px;
+}
+.pos3 {
+background-position: 96px 0;
+}
+
+.pos4 {
+    background-position: 144px 0;
+}
+
+.pos5 {
+    background-position: 192px 1;
+}
+
+
